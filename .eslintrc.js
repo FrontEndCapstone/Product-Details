@@ -18,6 +18,7 @@ module.exports = {
     "no-console": "off",
     "prefer-destructuring": "off",
     "import/extensions": [".js", ".jsx"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "no-undef": "off",
     "no-underscore-dangle": "off",
     "no-unused-vars": "off",
